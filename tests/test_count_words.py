@@ -23,10 +23,15 @@ count_words can return the count of a one word string
 """
 
 def test_function_returns_count_of_one_word_string():
+    result = count_words("grace")
+    assert result == 1
 
 
 
 """
-count_words return the count a 2 word string
+count_words return the count a multi-word string
 """
 
+def test_function_returns_ctest_function_returns_count_of_multi_word_string():
+    result = count_words("fire thought rich meat furlong")
+    assert result == 5
