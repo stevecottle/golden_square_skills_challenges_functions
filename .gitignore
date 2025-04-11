@@ -1,3 +1,6 @@
 challenges_functions_venv
+# Byte-compiled Python files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
